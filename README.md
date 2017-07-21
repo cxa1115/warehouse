@@ -1,5 +1,9 @@
 # warehouse
 
-First time to build a resp. on GitHub, FeelsNice to be here.
+First time to build a respository on GitHub, it feels nice to be here.
 
-第一次使用GitHub，暂时感觉有点高大上，希望以后能多多使用，我还是相信熟能生巧滴，嘿嘿，加油。
+And this \warehouse is a real warehouse for me :), cuz I have just began to learn some PHP thanks to the inspiration from one of my best bruddi Waldemar.
+
+Now I have only learned some basis and I will keep learn more and practice more.
+
+We'll see on GitHub !!!
