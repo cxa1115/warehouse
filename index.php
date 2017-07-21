@@ -21,5 +21,7 @@
 	<?php
 
 	?>
+
+	<a href="counter.php"><br>A counter with pictures</a>
 </body>
 </html>
