@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example for Index Html</title>
+<style>
+
+	#container{
+		width: 1000px;
+		background: gray;
+	}
+
+	#header{
+		height: 120px;
+		margin-bottom: 10px;
+		background: orange;
+	}
+
+    #main{
+		height: 600px;
+		background: green;
+	}
+
+	#lside{
+		float: left;
+		width: 700px;
+		height: 600px;
+		background: pink;
+	}
+
+	#test1{
+		/*
+		The first way to define a margin.
+		*/
+		height: 200px;
+		width: 300px;
+		margin: 10px;
+		background: red;
+		float: left;
+	}
+
+    #test2{
+    	/*
+		The second way to define a margin.
+    	*/
+    	height: 200px;
+    	width: 100px;
+    	margin-top: 20px;
+    	margin-right: 30px;
+    	margin-bottom: 10px;
+    	margin-left: 20px;
+    	background: white;
+    	float: right;
+    }
+
+    #test3{
+    	/*
+		The third way to define a margin, from top -> right -> bottom -> left
+    	*/
+    	height: 200px;
+    	width: 200px;
+    	margin: 10px 20px 12px;
+    	background: black;
+    	clear: left;
+    }
+
+    #reference{
+    	width: 700px;
+    	height: 20px;
+    	background: green;
+    }
+
+	#rside{
+		height: 600px;
+		width: 300px;
+		float: right;
+		background: purple;
+	}
+
+	#footer{
+		margin-top: 10px;
+		height: 120px;
+		background: blue;
+	}
+
+</style>
+</head>
+<body>
+	<div id="container">
+		<div id="header"></div>
+		<div id="main">
+			<div id="lside">
+				<div id="test1"></div>
+				<div id="test2"></div>
+				<div id="test3"></div>
+				<div id="reference">========================================================================</div>
+			</div>
+			<div id="rside"></div>
+		</div>
+		<div id="footer"></div>
+	</div>
+</body>
+</html>
