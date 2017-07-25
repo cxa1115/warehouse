@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>First try with JS</title>
+	<style>
+
+		div {
+			background: pink;
+			height: 300px;
+			margin-top: 20px;
+		}
+
+		#button1 {
+			margin-top: 15px;
+			background: red;
+			/*useless to float in middle*/
+			float: middle;
+		}
+
+		span {
+			height: 30px;
+			background: white;
+			margin-top: 10px;
+		}
+
+	</style>
+</head>
+
+<body>
+
+	<p id="title">We can do it!</p>
+	<button type="button" onclick="clicke()">Who are you?</button>
+
+	<p id="timer">Click the time button to show the time</p>
+	<button type="button" onclick="showTime()">Show the time?</button>
+
+	<div id="blocke">
+		<span id="year">To show the year... <br></span>
+		<span id="month">To show the month... <br></span>
+		<span id="day">To show the day... <br></span>
+
+		<button id="button1" type="button" onclick="abstructDate()">Get the Elements</button>
+	</div>
+
+	<p>Followed the first two lessons from a App named MaJi.</p>
+	<p>25 July 2017</p>
+
+	<script src="myScript.js"></script>
+
+	<script type="text/javascript">
+		window.alert('This is a window alertaaaa from JS in this HTML.');
+		var ele = document.getElementById('title');
+		function clicke() {
+			ele.innerHTML = "<h1>" + 'Cyka Bljad!' + "</h1>";
+		}
+		function showTime(){
+			var t = new Date();
+			document.getElementById('timer').innerHTML = t;
+		}
+	</script>
+
+</body>
+
+</html>
