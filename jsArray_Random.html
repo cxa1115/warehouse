@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div id="hehe"></div>
+    <div id="tips"></div>
+
+    <script type="text/javascript">
+
+      var arr = [];
+      arr[0] = "Hello";
+      arr[3] = "Buona notte";
+      arr[1] = "Ciao";
+      arr[2] = "Hi";
+      console.log(arr);
+      console.log(arr.length);
+
+      var idd = document.getElementById('hehe');
+      idd.innerHTML = arr[0];
+
+      //to generate a random number in [0,100]
+      var num1 = 101 * Math.random();
+      console.log(Math.floor(num1));
+
+      //to generate a random number in [11,20]
+      var num2 = 10 * Math.random() + 11;
+      console.log(Math.floor(num2));
+
+      var idd2 = document.getElementById('tips');
+      idd2.innerHTML = arr[Math.floor((Math.random() * 4))];
+
+    </script>
+
+  </body>
+</html>
